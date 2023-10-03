@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-veriler = pd.read_csv('eksikveriler.csv')
+veriler = pd.read_csv('datasources/eksikveriler.csv')
 
 print(veriler)
 

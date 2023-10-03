@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
 
 #kutuphaneler
 import numpy as np
@@ -13,7 +7,7 @@ import pandas as pd
 #kodlar
 #veri yukleme
 
-veriler = pd.read_csv('eksikveriler.csv')
+veriler = pd.read_csv('datasources/eksikveriler.csv')
 #pd.read_csv("veriler.csv")
 
 print(veriler)

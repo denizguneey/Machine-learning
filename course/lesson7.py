@@ -7,7 +7,7 @@ import pandas as pd
 #Prediction 
 #Simple Linear Regression data preparation
 
-veriler = pd.read_csv('sales.csv')
+veriler = pd.read_csv('datasources/sales.csv')
 
 print(veriler)
 
